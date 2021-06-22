@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    font-family: 'Press Start 2P', cursive;
+    color: green;
+    background-color: black;
+}
+
+.MorseDecoder {
+    display: flex;
+    justify-content: space-between;
+    margin: 10vh 10vh;
+    label:hover{
+        color: gray;
+    }
+    button:hover {
+        color: gray;
+        background-color: green;
+    }
+    textarea:focus{
+        outline-color: green;
+    }
+}
+
+.footer {
+    text-align: center;
+}

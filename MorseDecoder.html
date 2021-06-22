@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MorseDecoder.css">
+    <title>Morse Decoder</title>
+    <script type="module" src="./dom.js"></script>
+    <script type="module" src="./nlp.js"></script>
+    <script type="module" src="./Corpus.js"></script>
+</head>
+<body>
+    <main class="MorseDecoder">
+        <div class = "Morse">
+            <form class = "Morse__area">
+                <label for="Morse_input">Morse Code:</label><br><br>
+                <textarea id = "Morse_input" cols="30" rows="40" value="" placeholder="Please input your Morse code to be translated here"></textarea><br>
+                <button id="morseclear">Clear</button>
+            </form>
+        </div>
+        <div class = "English">
+            <form class = "English__area">
+                <label for="English_input">English:</label><br><br>
+                <textarea id = "English_input" cols="30" rows="40" value="" placeholder="Please input your words to be translated in English here"></textarea><br>
+                <button id="engclear">Clear</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <hr>
+        &copy; 2021 Copyright Tingyu Pan
+    </footer>
+</body>
+</html>
